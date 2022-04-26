@@ -1,0 +1,9 @@
+{
+  "name": "ceramic-conference-datamodel",
+  "version": "1.0.0",
+  "description": "A basic data model created using a script",
+  "main": "index.ts",
+  "author": "Artur Wdowiarski",
+  "license": "MIT",
+  "private": null
+}
