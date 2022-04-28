@@ -29,6 +29,15 @@ export const CONFERENCE_SCHEMA = {
       }
     },
     "definitions": {
+      "IPFSUrl": {
+        "type": "string",
+        "pattern": "^ipfs://.+",
+        "maxLength": 150
+      },
+      "positiveInteger": {
+        "type": "integer",
+        "minimum": 1
+      },
       "imageMetadata": {
         "type": "object",
         "properties": {
